@@ -1,0 +1,151 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #EDF6F9;
+}
+
+.kanban-container {
+  display: flex;
+  gap: 20px;
+}
+
+.column {
+  flex: 1;
+  background-color: #83C5BE;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 5px 5px 10px #006D77;
+  color:#EDF6F9
+}
+
+.task {
+  background-color: #006D77;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 8px 0;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s ease-in-out;
+  color: #EDF6F9
+}
+
+.task:hover {
+  background-color: #FFDDD7;
+}
+
+.add-task{
+  margin: 60px;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.delete-button {
+  background-color: #E29578;
+  color: #EDF6F9;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.navbar {
+  background-color: #E29578;
+  color: #EDF6F9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 50px;
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  border-radius: 10px;
+}
+
+.nav-title {
+  font-size: 60px;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+}
+
+.addTask-button{
+  margin: 5px;
+  background-color: #E29578;
+  color: #EDF6F9;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 8px;
+
+}
+
+.addTask-button:hover{
+  background-color: #FFDDD7;
+}
+
+.menu-button{
+  margin: 5px;
+  background-color: #E29578;
+  color: #EDF6F9;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.menu-button:hover{
+  background-color: #FFDDD7;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  color: #006D77;
+}
+
+.instructions{
+  margin-top: 30px;
+  font-size: 14px;
+  z-index:2;
+}
+
+.about{
+  margin-top: 30px;
+  font-size: 14px;
+  z-index: 3;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  background-color: #FFDDD7;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.footer {
+  background-color: #E29578;
+  color: #EDF6F9;
+  text-align: center;
+  padding: 10px;
+  width: 95%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.footer-link {
+  color: #EDF6F9;
+  text-decoration: none;
+  font-weight: bold;
+}

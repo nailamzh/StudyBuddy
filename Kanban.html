@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Kanban.css">
+  <title>Kanban Board</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="Kanban.css" rel="stylesheet" type="text/css" />
+   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <nav class="navbar"> 
+    <div class="nav-title">Study Buddy</div>
+  </nav>
+
+  <h1>Kanban Table</h1>
+
+  <div class="kanban-container">
+    <div class="column" id="todo" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <h2>To Do</h2>
+      <div class="task" id="task1" draggable="true" ondragstart="drag(event)" onclick="deleteTask(this)">Task 1
+      <button class="delete-button" >Delete</button></div>
+      <div class="task" id="task2" draggable="true" ondragstart="drag(event)" onclick="deleteTask(this)">Task 2
+      <button class="delete-button" onclick="deleteTask(this)">Delete</button></div>
+    </div>
+    <div class="column" id="in-progress" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <h2>In Progress</h2>
+    </div>
+    <div class="column" id="done" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <h2>Done</h2>
+    </div>
+  </div>
+  <script src="Kanban.js"></script>
+
+
+<section class = "info">
+  <div class="add-task">
+    <input type="text" id="newTask" placeholder="Enter task name">
+    <button class='addTask-button' onclick="addTask()">Add Task</button>
+  </div>
+
+  <div class='instructions'>
+    <p>1. Add as many tasks as you want.</p>
+    <p>2. Drag and drop the tasks into the column you want</p>
+    <p>3. Delte any tasks by pressing the delete button</p>
+    <p>4. Select a task and start working on it. Manage your time with the pomodoro technique</p>
+  </div>
+
+  <div class='about'>
+    <h3>What is a Kanban Table?</h3>
+    <p>A Kanban table is a tool for workflow visualization, designed to help you bring clarity to your work process and enhance efficiency by limiting work in progress. In Japanese, kanban literally translates to "visual signal." For kanban teams, every work item is represented as a separate card on the board. The main purpose of representing work as a card on the kanban board is to allow team members to track the progress of work through its workflow in a highly visual manner.</p>
+  </div>
+
+
+  <footer class="footer">
+    <a href="menu.html" class="footer-link">Back to Menu</a>
+  </footer>
+</section>
+    <script src="Kanban.js"></script>
+  </body>
+</html>

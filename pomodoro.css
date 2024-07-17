@@ -1,0 +1,122 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  color: #006D77;
+  background-color: #83C5BE;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #E29578;
+  color: #EDF6F9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 50px;
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  border-radius: 10px;
+}
+
+.nav-title {
+  font-size: 60px;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+}
+
+.container {
+  background-color: #FFDDD2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+.timer {
+  font-size: 60px;
+  color: #e27b78;
+  margin-bottom: 20px;
+}
+
+.controls button {
+  background-color: #006D77;
+  color: #EDF6F9;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.settings {
+  margin-top: 20px;
+}
+
+.settings label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.settings input {
+  width: 50px;
+  padding: 5px;
+  border: 1px solid #83C5BE;
+  border-radius: 5px;
+}
+
+.progress-bar-container {
+  width: 100%;
+  height: 20px;
+  background-color: #EDF6F9;
+  border-radius: 10px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  width: 0;
+  height: 100%;
+  background-color: #83C5BE;
+  transition: width 1s linear;
+}
+
+.instructions {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.instructions-two {
+  margin-top: 30px;
+  text-align: left;
+  font-size: 14px;
+}
+
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+  background-color: #E29578;
+  color: #EDF6F9;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.footer-link {
+  color: #EDF6F9;
+  text-decoration: none;
+  font-weight: bold;
+}

@@ -2,3 +2,77 @@ html {
   height: 100%;
   width: 100%;
 }
+/* --------HEADER-------- */
+.navbar {
+  background-color: #E29578;
+  border-radius: 10px;
+  color: #EDF6F9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 50px;
+  padding: 30px;
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:0;
+}
+
+.nav-title {
+  font-size: 60px;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+}
+
+h1 {
+  color: #EDF6F9;
+}
+body {
+  background-color: #EDF6F9;
+font-family: 'Comfortaa', cursive;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  margin-right: 20px;
+}
+
+/* --------MAIN CONTENT------- */
+.motto {
+  display: block;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 120%;
+  margin-left: 100px;
+  margin-right: 100px;
+  color:  #006D77;
+  background-color: #FFDDD7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+button {
+  height: 100px;
+  width: 400px;
+  background-color: #83C5BE;
+  box-shadow: 5px 5px 10px #006D77;
+  font-size: 30px;
+  color: #EDF6F9;
+  transition: background-color 0.3s ease;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+}
+button:hover {
+  background-color: #006D77;
+  color: #EDF6F9;
+}
